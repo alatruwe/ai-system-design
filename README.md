@@ -42,15 +42,15 @@ Say your team wants to build an automated workflow that receives support emails,
 
 | File | Topic |
 |------|-------|
-| [00-anatomy.md](docs/00-anatomy.md) | Anatomy of an AI System — The Building Blocks |
-| [01-concepts-and-risks.md](docs/01-concepts-and-risks.md) | What Each Block Needs & Key Concepts |
+| [00-anatomy.md](docs/00-anatomy.md) | Anatomy of an AI System — The building blocks |
+| [01-concepts-and-risks.md](docs/01-concepts-and-risks.md) | What each block needs & key concepts |
 | [02-context.md](docs/02-context.md) | Context Management |
-| [03-oversight.md](docs/03-oversight.md) | Human Oversight & Guardrails |
+| [03-oversight.md](docs/03-oversight.md) | Human oversight & Guardrails |
 | [04-evaluation.md](docs/04-evaluation.md) | Evaluation & Observability |
-| [05-data-flow.md](docs/05-data-flow.md) | Data Flow & Trust Boundaries |
-| [06-failure-modes.md](docs/06-failure-modes.md) | Failure Modes |
+| [05-data-flow.md](docs/05-data-flow.md) | Data flow & Trust boundaries |
+| [06-failure-modes.md](docs/06-failure-modes.md) | Failure modes |
 | [07-cost.md](docs/07-cost.md) | Cost Management |
-| [08-decision-guide.md](docs/08-decision-guide.md) | Decision Guide |
+| [08-decision-guide.md](docs/08-decision-guide.md) | Decision guide |
 
 ---
 
