@@ -6,7 +6,7 @@ Think of AI systems as built from building blocks.
 Each block adds a capability, and complexity comes from how many blocks you're combining and how much freedom the system has.  
 This framing helps you scope what you're actually building, which tells you what you need to design for.
 
-## The Building Blocks
+## The building blocks
 
 Every AI system is assembled from some combination of these:
 
@@ -52,7 +52,7 @@ The system prompt is where you define the AI's role, tone, constraints, and goal
 **The boundary with retrieval:** As soon as you attach files, add documents to a project, or enable features that pull in external context, you've added the 🧠 Memory block. Claude's Projects feature, ChatGPT's file uploads, or any setup where the system searches through provided materials to inform its response uses retrieval. The distinction is whether the model is working with just the conversation, or with external data injected alongside it.
 
 ---
-### Retrieval, Tools, or Both
+### Retrieval, Tools, or both
 **Blocks:** 🧱 + 🧠 and/or 🔧 (+ 💬 if conversational)
 
 This is where the model gains capabilities beyond just talking.  
@@ -67,7 +67,7 @@ There are three variants, all at a similar complexity because each adds one kind
 The key distinction from chained workflows: everything here happens within **a single AI call**. The model might use tools and retrieval, but there's one prompt, one response cycle.
 
 ---
-### Chained Workflow
+### Chained workflow
 **Blocks:** 🧱 + 🧠 + 🔧 + ⛓️ (+ 💬 if conversational)
 
 Multiple AI calls connected in sequence, where the output of one becomes the input of the next. Each step transforms, validates, or enriches the data. The workflow is fixed, with defined steps: step 1 feeds step 2 feeds step 3.
@@ -112,4 +112,4 @@ Most real-world systems are combinations, not clean single-pattern implementatio
 
 ---
 
-← [README](README.md) · [Next: What Each Block Needs & Key Concepts →](01-concepts-and-risks.md)
+[← README](README.md) · [What each block needs & key concepts →](01-concepts-and-risks.md)
