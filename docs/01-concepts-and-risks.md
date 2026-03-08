@@ -4,7 +4,7 @@ Every building block in an AI system introduces concepts you need to think about
 This section gives you the full landscape at a glance, then maps each block to what matters most. The deep-dive sections that follow cover each concept in detail.  
 Use this page to figure out which ones are relevant to what you're building.
 
-## The Concepts
+## The concepts
 
 **Context Management** — What information does the AI have access to, and is it the right information? Covers how to think about what goes into the model, common mistakes, prompt injection as a risk, and how context needs change based on which blocks your system uses. [Deep dive →](02-context.md)
 
@@ -86,4 +86,4 @@ The AI decides its own path. Everything above applies, at the highest stakes:
 
 ---
 
-← [Anatomy of an AI System](00-anatomy.md) · [Next: Context Management →](02-context.md)
+[← Anatomy of an AI System](00-anatomy.md) · [Context Management →](02-context.md)
