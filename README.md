@@ -5,7 +5,7 @@
 
 ---
 
-This is a thinking framework for anyone building AI into products and systems — not just using AI, but designing AI features. It's tool-agnostic, and it's framed as questions to think about rather than rules to follow.
+This is a thinking framework for anyone building AI into products and systems, not just using AI, but designing AI features. It's tool-agnostic, and it's framed as questions to think about rather than rules to follow.
 
 **Who this is for:**
 - Developers building AI features
