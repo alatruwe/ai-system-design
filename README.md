@@ -1,5 +1,5 @@
 # AI System Design Principles
-### A Practical Framework for Building AI-Powered Features
+### A practical framework for building AI-powered features
 
 **Author:** Adeline Latruwe
 
@@ -18,7 +18,7 @@ This is a thinking framework for anyone building AI into products and systems, n
 - A tutorial on any specific tool, provider, or framework
 - A coding resource — there's no code in this guide
 
-## How This Guide Works
+## How this guide works
 
 The guide is built around a simple idea: AI systems are made of **building blocks**, and each block introduces **concepts and risks** you need to think about. The more blocks your system uses, the more there is to consider.
 
@@ -26,7 +26,7 @@ The guide is built around a simple idea: AI systems are made of **building block
 2. **Check what matters.** [Concepts](00b-concepts-and-risks.md) maps each block to the concepts you need to think about: context management, oversight, evaluation, data flow, failure modes, and cost.
 3. **Go deeper where needed.** Each concept has a deep-dive section. Read the ones relevant to your blocks, skip the rest.
 
-## Example: Using This Guide
+## Example: using this guide
 
 Say your team wants to build an automated workflow that receives support emails, searches a knowledge base for relevant articles, and drafts a response.
 
