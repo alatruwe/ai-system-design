@@ -67,4 +67,4 @@ Context management looks different depending on what you're building:
 
 ---
 
-[← What each block needs & key concepts](01-concepts-and-risks.md) · [Human oversight & guardrails →](02-oversight.md)
+[← What each block needs & key concepts](01-concepts-and-risks.md) · [Human oversight & guardrails →](03-oversight.md)
