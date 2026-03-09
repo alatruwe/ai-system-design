@@ -45,7 +45,7 @@ The practical takeaway isn't that AI systems are unstable. It's that **you need 
 
 **Retrieval relevance.** When the system pulls in external data, that data can go stale or shift without warning. The model will keep answering confidently regardless, the question is whether anyone is checking what it's working with.
 
-## How Evaluation and Observability change based on your system
+## How evaluation and observability change based on your system
 
 **🧱 Basic and 💬 Session** — Evaluation and observability needs are minimal. Having a record of inputs and outputs is still valuable if the system runs at any volume.
 
