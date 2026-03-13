@@ -6,17 +6,17 @@ Use this page to figure out which ones are relevant to what you're building.
 
 ## The concepts
 
-**Context Management** — What information does the AI have access to, and is it the right information? Covers how to think about what goes into the model, common mistakes, prompt injection as a risk, and how context needs change based on which blocks your system uses. [Deep dive →](02-context.md)
+<img src="assets/icons/context.png" width="25"/>  **Context Management** — What information does the AI have access to, and is it the right information? Covers how to think about what goes into the model, common mistakes, prompt injection as a risk, and how context needs change based on which blocks your system uses. [Deep dive →](02-context.md)
 
-**Human Oversight & Guardrails** — How much autonomy does the AI have, and who catches mistakes? Covers the autonomy spectrum, automated guardrails, and how to decide where humans belong in a workflow. [Deep dive →](03-oversight.md)
+<img src="assets/icons/human.png" width="25"/>  **Human Oversight & Guardrails** — How much autonomy does the AI have, and who catches mistakes? Covers the autonomy spectrum, automated guardrails, and how to decide where humans belong in a workflow. [Deep dive →](03-oversight.md)
 
-**Evaluation & Observability** — How do you know the system is working, and how do you know when it stops? Covers what "good output" means, why AI systems degrade silently, and what signals to watch for. [Deep dive →](04-evaluation.md)
+<img src="assets/icons/eval-monitoring2.png" width="25"/>  **Evaluation & Observability** — How do you know the system is working, and how do you know when it stops? Covers what "good output" means, why AI systems degrade silently, and what signals to watch for. [Deep dive →](04-evaluation.md)
 
-**Data Flow & Trust Boundaries** — Where does data go when it enters your system, and who can see it? Covers trust boundaries, provider policies, and questions to ask before data leaves your system. [Deep dive →](05-data-flow.md)
+<img src="assets/icons/data.png" width="25"/>  **Data Flow & Trust Boundaries** — Where does data go when it enters your system, and who can see it? Covers trust boundaries, provider policies, and questions to ask before data leaves your system. [Deep dive →](05-data-flow.md)
 
-**Failure Modes** — What happens when the AI breaks? Covers the ways AI systems fail  (hallucination, rate limits, timeouts, malformed output...) and why you need to plan for them before you ship. [Deep dive →](06-failure-modes.md)
+<img src="assets/icons/fail.png" width="25"/>  **Failure Modes** — What happens when the AI breaks? Covers the ways AI systems fail  (hallucination, rate limits, timeouts, malformed output...) and why you need to plan for them before you ship. [Deep dive →](06-failure-modes.md)
 
-**Cost Management** — What does it cost to build and run, and what drives those costs? Covers token economics, model selection as a cost lever, enterprise licensing considerations, and the hidden costs that aren't on the invoice. [Deep dive →](07-cost.md)
+<img src="assets/icons/cost.png" width="25"/>  **Cost Management** — What does it cost to build and run, and what drives those costs? Covers token economics, model selection as a cost lever, enterprise licensing considerations, and the hidden costs that aren't on the invoice. [Deep dive →](07-cost.md)
 
 ## What each block needs
 
