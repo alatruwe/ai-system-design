@@ -23,6 +23,12 @@ This is a thinking framework for anyone building AI into products and systems, n
 The guide is built around a simple idea: AI systems are made of **building blocks**, and each block introduces **concepts and risks** you need to think about. The more blocks your system uses, the more there is to consider.
 
 1. **Start with the blocks.** [Anatomy of an AI System](docs/00-anatomy.md) introduces six building blocks — basic single prompt, session, memory, action, chain, and autonomy — and the common patterns they combine into.
+  <p align="center">
+    <a href="docs/00-anatomy.md">
+      <img width="450" alt="Building blocks diagram" src="docs/assets/building-blocks.png" />
+    </a>
+  </p>
+
 2. **Check what matters.** [Concepts](docs/01-concepts-and-risks.md) maps each block to the concepts you need to think about: context management, oversight, evaluation, data flow, failure modes, and cost.
 3. **Go deeper where needed.** Each concept has a deep-dive section. Read the ones relevant to your blocks, skip the rest.
 
