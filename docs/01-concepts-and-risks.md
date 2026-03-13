@@ -8,7 +8,7 @@ Use this page to figure out which ones are relevant to what you're building.
 
 <img src="assets/icons/context.png" width="25"/>  **Context Management** — What information does the AI have access to, and is it the right information? Covers how to think about what goes into the model, common mistakes, prompt injection as a risk, and how context needs change based on which blocks your system uses. [Deep dive →](02-context.md)
 
-<img src="assets/icons/human.png" width="25"/>  **Human Oversight & Guardrails** — How much autonomy does the AI have, and who catches mistakes? Covers the autonomy spectrum, automated guardrails, and how to decide where humans belong in a workflow. [Deep dive →](03-oversight.md)
+<img src="assets/icons/human.png" width="25"/>  **Human Oversight &** <img src="assets/icons/guardrails.png" width="25" align="bottom"/> **Guardrails** — How much autonomy does the AI have, and who catches mistakes? Covers the autonomy spectrum, automated guardrails, and how to decide where humans belong in a workflow. [Deep dive →](03-oversight.md)
 
 <img src="assets/icons/eval-monitoring2.png" width="25"/>  **Evaluation & Observability** — How do you know the system is working, and how do you know when it stops? Covers what "good output" means, why AI systems degrade silently, and what signals to watch for. [Deep dive →](04-evaluation.md)
 
