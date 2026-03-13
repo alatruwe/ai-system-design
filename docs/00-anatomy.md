@@ -10,13 +10,19 @@ This framing helps you scope what you're actually building, which tells you what
 
 Every AI system is assembled from some combination of these:
 
+What they are:
 - 🧱 **Basic** — A single prompt in, single response out. The atomic unit.
 - 💬 **Session** — Conversation history and a system prompt. The model has context from earlier in the conversation, but that context is ephemeral, once the session ends, it's gone. Present when the system is conversational; optional in any pattern.
 - 🧠 **Memory** — Retrieval. The system pulls in persistent external context (documents, databases) at query time. Unlike session, this data exists independently of any conversation.
 - 🔧 **Action** — Tools. The system can do things in the world (call APIs, edit files, send messages).
+
+How to assemble them:
 - ⛓️ **Chain** — Multiple AI calls in sequence, where one output feeds the next. The workflow is fixed, with defined steps.
 - 🤖 **Autonomy** — The AI decides what to do next. It plans, selects tools, takes actions, observes results, and loops. The system is goal-oriented.
 
+<div align="center">
+  <img width="500" src="assets/building-blocks.png" alt="Building blocks diagram" />
+</div>
 
 These are the archetypes you'll encounter in the wild.  
 Most real-world systems are combinations of blocks, but these patterns give you a shared vocabulary for talking about what you're building.
