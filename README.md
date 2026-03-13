@@ -30,7 +30,7 @@ The guide is built around a simple idea: AI systems are made of **building block
 
 Say your team wants to build an automated workflow that receives support emails, searches a knowledge base for relevant articles, and drafts a response.
 
-**Step 1 — Identify your blocks.** You're looking at 🧱 Basic (single AI call), 🧠 Memory (knowledge base retrieval), and possibly 🔧 Action (if the system sends the response or creates a ticket).
+**Step 1 — Identify your blocks. How to arrange them?** You're looking at 🧱 Basic (single AI call), 🧠 Memory (knowledge base retrieval), and possibly 🔧 Action (if the system sends the response or creates a ticket).
 
 **Step 2 — Check what matters.** [Concepts](docs/01-concepts-and-risks.md) tells you that with 🧠 Memory, you need to think about context management, data flow, and evaluation. With 🔧 Action, add human oversight and failure modes.
 
