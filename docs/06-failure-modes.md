@@ -1,4 +1,4 @@
-# Failure modes
+# <img src="assets/icons/fail.png" width="25"/> Failure modes
 
 **What happens when the AI breaks?**
 
