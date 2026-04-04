@@ -1,4 +1,4 @@
-# Cost Management
+# <img src="assets/icons/cost.png" width="25"/> Cost Management
 
 **What does it cost to build and run, and what drives those costs?**
 
