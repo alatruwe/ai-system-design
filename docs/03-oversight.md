@@ -1,4 +1,4 @@
-# Human oversight & guardrails
+# <img src="assets/icons/human.png" width="25"/> Human oversight & <img src="assets/icons/guardrails.png" width="25" align="bottom"/> guardrails
 
 **How much autonomy does the AI have, and who catches mistakes?**
 
