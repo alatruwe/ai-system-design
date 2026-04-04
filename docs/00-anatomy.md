@@ -36,9 +36,9 @@ The complexity jumps come from three thresholds: how much can the system do in a
 A single input, a single output, no conversation.  
 Think of a step in an automated workflow that takes a block of text and summarizes it: one prompt, one response, done.
 
-```
-Input → Prompt → Model → Response
-```
+<div align="center">
+<img width="500" height="203" alt="image" src="https://github.com/user-attachments/assets/3672e618-b1a0-496f-a865-6622014e5710" />
+</div>
 
 There's no memory, no session, no back-and-forth. The quality depends entirely on the prompt and the input.  
 This is the most basic building block, and it's often a single step inside a larger system.
@@ -48,12 +48,10 @@ This is the most basic building block, and it's often a single step inside a lar
 **Blocks:** 🧱 + 💬
 
 Add a system prompt and conversation history, and the model starts behaving more consistently. It has instructions and it remembers what you said earlier in the conversation. This is what you're doing when you open ChatGPT or Claude in your browser and have a plain back-and-forth conversation, no file uploads, no project context, just chat.
-
-```
-User → System Prompt + Conversation History → Model → Response
-```
-
-The system prompt is where you define the AI's role, tone, constraints, and goals. This is the simplest version of "designing" an AI experience rather than just using one. Every time you start a conversation and say "you are a helpful assistant that speaks like a pirate", that's a system prompt. The platform is doing the same thing behind the scenes.
+<div align="center">
+<img width="500" height="523" alt="image" src="https://github.com/user-attachments/assets/9b74db35-283a-4f0e-b9d2-adcf844baf3c" />
+</div>
+The system prompt is where you define the AI's role, tone, constraints, and goals. This is the simplest version of "designing" an AI experience rather than just using one. Every time you start a conversation and say "you are a helpful assistant that speaks like a pirate", that's a system prompt. The platform is doing the same thing behind the scenes.  
 
 **The boundary with retrieval:** As soon as you attach files, add documents to a project, or enable features that pull in external context, you've added the 🧠 Memory block. Claude's Projects feature, ChatGPT's file uploads, or any setup where the system searches through provided materials to inform its response uses retrieval. The distinction is whether the model is working with just the conversation, or with external data injected alongside it.
 
@@ -61,8 +59,12 @@ The system prompt is where you define the AI's role, tone, constraints, and goal
 ### Retrieval, Tools, or both
 **Blocks:** 🧱 + 🧠 and/or 🔧 (+ 💬 if conversational)
 
-This is where the model gains capabilities beyond just talking.  
-There are three variants, all at a similar complexity because each adds one kind of capability to a single AI call:
+This is where the model gains capabilities beyond just talking.
+<div align="center">
+<img width="600" height="310" alt="image" src="https://github.com/user-attachments/assets/51f050d7-12fc-4f82-b472-c92c99dbcce1" />
+</div>
+There are three variants, all at a similar complexity because each adds one kind of capability to a single AI call:  
+
 
 **Retrieval (🧱 + 🧠):** The model pulls in relevant information at query time. Consider a workflow step that receives a support email, searches the knowledge base for relevant articles, and drafts a response. The AI never has a conversation, it gets the email, retrieves context, and produces a draft in a single call.  
 
@@ -77,10 +79,9 @@ The key distinction from chained workflows: everything here happens within **a s
 **Blocks:** 🧱 + 🧠 + 🔧 + ⛓️ (+ 💬 if conversational)
 
 Multiple AI calls connected in sequence, where the output of one becomes the input of the next. Each step transforms, validates, or enriches the data. The workflow is fixed, with defined steps: step 1 feeds step 2 feeds step 3.
-
-```
-Input → AI Call 1 → Transform → AI Call 2 → Validate → AI Call 3 → Output
-```
+<div align="center">
+<img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/b8406e4d-2eaf-469b-870d-37de398d8f51" />
+</div>
 
 Chained workflows multiply both capability and fragility. If one step fails silently (a rate limit, a bad parse, a hallucinated intermediate value...) the final output can look polished but be wrong. This is where the failure modes principle becomes critical.
 
@@ -91,10 +92,9 @@ Consider a content pipeline that takes a research paper, extracts key findings (
 **Blocks:** 🧱 + 🧠 + 🔧 + ⛓️ + 🤖 (+ 💬 if conversational)
 
 The same blocks as a chained workflow, plus one critical addition: **autonomy**. The AI doesn't just follow a fixed sequence: it decides what to do next. It plans, selects tools, takes actions, observes results, and loops until the goal is met. The human sets a goal; the agent figures out the steps.
-
-```
-User Goal → Planner → Tool Selection → Action → Observation → Loop → Final Output
-```
+<div align="center">
+<img width="836" height="413" alt="image" src="https://github.com/user-attachments/assets/a4cb4f82-e25d-4a58-bd84-2abdbbb2701a" />
+</div>
 
 For example, this is where AI coding agents live. You say "refactor this module to use async" and it reads your codebase, plans an approach, edits files, runs tests, sees failures, fixes them, and loops until the tests pass. It can load skills, run background agents, and use tools like bash and file editing. You set the goal, it decides the path.
 
