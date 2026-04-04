@@ -1,4 +1,4 @@
-# Data flow & Trust boundaries
+# <img src="assets/icons/data.png" width="30"/> Data flow & Trust boundaries
 
 **Where does data go when it enters your system, and who can see it?**
 
