@@ -76,7 +76,7 @@ The key distinction from chained workflows: everything here happens within **a s
 
 ---
 ### Chained workflow
-**Blocks:** 🧱 + 🧠 + 🔧 + ⛓️ (+ 💬 if conversational)
+**Blocks:** ⛓️ (+ 🧱 🧠 🔧 as needed)
 
 Multiple AI calls connected in sequence, where the output of one becomes the input of the next. Each step transforms, validates, or enriches the data. The workflow is fixed, with defined steps: step 1 feeds step 2 feeds step 3.
 <div align="center">
@@ -89,7 +89,7 @@ Consider a content pipeline that takes a research paper, extracts key findings (
 
 ---
 ### Agentic System
-**Blocks:** 🧱 + 🧠 + 🔧 + ⛓️ + 🤖 (+ 💬 if conversational)
+**Blocks:** 🤖 (+ 🧱 🧠 🔧 as needed)
 
 The same blocks as a chained workflow, plus one critical addition: **autonomy**. The AI doesn't just follow a fixed sequence: it decides what to do next. It plans, selects tools, takes actions, observes results, and loops until the goal is met. The human sets a goal; the agent figures out the steps.
 <div align="center">
@@ -110,8 +110,8 @@ Agentic systems are powerful but hard to predict. The AI is making decisions abo
 | Retrieval | 🧱 🧠 | Workflow step: email → knowledge base search → draft response | Retrieval quality, data freshness |
 | Tools | 🧱 🔧 | Bot: alert → API status check → Slack summary | Tool reliability, error handling |
 | Retrieval + tools | 🧱 🧠 🔧 | Support bot with knowledge base + ticket creation | Combined retrieval and action risks |
-| Chained workflow | 🧱 🧠 🔧 ⛓️ | Multi-step content pipeline | Silent failures, compounding errors |
-| Agentic system | 🧱 🧠 🔧 ⛓️ 🤖 | AI coding agents | Unpredictable decisions, trust boundaries |
+| Chained workflow | ⛓️ (+ 🧱 🧠 🔧) | Multi-step content pipeline | Silent failures, compounding errors |
+| Agentic system | 🤖 (+ 🧱 🧠 🔧) | AI coding agents | Unpredictable decisions, trust boundaries |
 
 
 Most real-world systems are combinations, not clean single-pattern implementations. A chained workflow might contain several simple interaction steps and a retrieval layer inside it. An agentic system might orchestrate a mix of single calls and chained workflows as part of its plan. The complexity of your system is determined by the *most complex pattern present*, which determines the design rigor you need.
