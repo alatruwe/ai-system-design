@@ -1,4 +1,4 @@
-# Context Management
+# <img src="assets/icons/context.png" width="25"/> Context Management
 
 **What information does the AI have access to, and is it the right information?**
 
