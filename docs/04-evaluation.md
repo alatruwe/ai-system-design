@@ -1,4 +1,4 @@
-# Evaluation & Observability
+# <img src="assets/icons/eval-monitoring2.png" width="25"/> Evaluation & Observability
 
 **How do you know the system is working, and how do you know when it stops?**
 
