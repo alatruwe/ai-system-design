@@ -24,7 +24,7 @@ This isn't an exhaustive list, these are some of the most common signals worth w
 
 - **What data will flow through this system?** Trace the path before you build anything. If customer data, employee data, or anything sensitive is involved, think about trust boundaries first.
 
-### Sustainability
+### Observability
 
 - **How will we know this is still working in 3 months?** If there's no plan for monitoring or periodic review, that's worth raising early.
 - **What will this cost to run?** Get a rough sense of token volume, model costs, and infrastructure needs before committing.
